@@ -15,7 +15,7 @@ public class LuceneTester {
       try {
          tester = new LuceneTester();
          tester.createIndex();
-         tester.search("hamsters");
+         tester.search("Star Wars");
       } catch (IOException e) {
          e.printStackTrace();
       } catch (ParseException e) {
